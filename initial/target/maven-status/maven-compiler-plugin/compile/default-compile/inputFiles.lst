@@ -1,9 +1,0 @@
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/adapter/out/RepositoryMock.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/app/Application.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/app/controller/AppController.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/app/controller/MasterDataController.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/app/dto/MasterDataDTO.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/app/service/MasterDataService.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/domain/model/MasterData.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/ports/out/MasterDataRepository.java
-/Users/juancarlos/ws/biml/biml-master/initial/src/main/java/com/biml/master/utils/ParsingUtil.java
