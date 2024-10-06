@@ -13,7 +13,8 @@ import com.biml.master.utils.ParsingUtil;
 
 @Service
 public class MasterDataService {
-    @Autowired
+    
+    @Autowired(required = true)
     private MasterDataRepository repository;
 
     public List<MasterDataDTO> getAllMasterData(String idMaster) {

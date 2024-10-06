@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppController {
 
-	@GetMapping("/")
+	@GetMapping("/ping")
 	public String index() {
-		return "Initialice application master!";
+		return "pong!";
 	}
 
 }

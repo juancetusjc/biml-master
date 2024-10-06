@@ -3,9 +3,12 @@ package com.biml.master.adapter.out;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.biml.master.domain.model.MasterData;
 import com.biml.master.ports.out.MasterDataRepository;
 
+@Service
 public class RepositoryMock implements MasterDataRepository{
 
     private List<MasterData> list=new ArrayList<>();

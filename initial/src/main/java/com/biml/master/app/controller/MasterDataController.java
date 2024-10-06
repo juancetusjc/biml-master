@@ -15,19 +15,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@RequestMapping("/api/masterdata")
+@RequestMapping("/v1")
 public class MasterDataController 
 {
     @Autowired
     private MasterDataService service;
 
-    @GetMapping
+    @GetMapping("/list")
     public List<MasterDataDTO> getAll(String idMasteString) {
 
         return service.getAllMasterData(idMasteString);
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public MasterDataDTO create(@RequestBody MasterDataDTO masterData) {
         return service.createMasterData(masterData);
     }
